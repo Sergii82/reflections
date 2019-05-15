@@ -1,7 +1,13 @@
-What happens when you initialize a repository? Why do you need to do it?
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-	Git creates hidden folder .git with metadata and start to track all the changes.
-	
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+	- Camparing only code that was changed was easier to find bug.
+	- You can see the difference in code and have picture of where your project is moving, how it is developed.
 
-	Working directory is a set of files and sub folders on the computer which is being tracked by git. Repository - files and sub folders on the server. Staging area is a set of files we are going to commit, so it is intermediate state between working directory and repository. It offers flexibility. We can change what we want to commit without any influence on repository (i.e. there will not be any commits shown in git log).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It gives flexibilty to project. It's becomming easier to move back to your previous stages and try to fix code or even go different way.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google docs
