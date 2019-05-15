@@ -58,4 +58,4 @@ How might using version control make you more confident to make changes that cou
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-	I want to start my own project in github!
+	I want to start my own project in GitHub!
