@@ -15,3 +15,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 	When we have alternative changes that we are not sure will work in future. Or when we have different versions of the projects (i.e. different locales).
 	Branches give us a chance to try alternative development of project with a possibility to reject changes or apply them to the main flaw of the project. Or even create new alternative project.
+
+How do the diagrams help you visualize the branch structure?
+	
+	With diagrams we can see the whole structure of the git commits and understand the flow of the project development and commits history.
