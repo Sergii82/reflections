@@ -22,4 +22,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-	We move all changes from one branch to another (not only last commit!). It is represented this way because we merge two branches and after this there is one branch with all the changes from previous two.
+	We move all changes from one branch to another (not only last commit!). It is represented this way because we merge two branches and after this there is one new merged branch with all the commits from previous two.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Sometimes merging can be done automatically without any undesirable consiquences for the project and there is no need to spend time and efforts on manual revising of the code (or any other material). For example when different parts of the code were edited. But if same parts of the code were edited then manual interaction is necessary to resolve conflict(s). And git doesn't merge untill conflict is resolved.
