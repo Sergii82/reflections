@@ -1,1 +1,7 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+	First it's safe. If something hapennes with the computer data will be saved in GitHub server. Second, this way others can watch or even interact with the code (or whatever is stored on GitHub).
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	To keep project on hub completed and put only changes that are ready to be represented to the others.
